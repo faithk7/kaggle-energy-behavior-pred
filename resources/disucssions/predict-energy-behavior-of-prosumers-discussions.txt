@@ -1,0 +1,762 @@
+Title: Welcome to Enefit's Energy Prediction Challenge
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/452183
+
+Title: This Competition has an Official Discord Channel
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/452899
+
+Title: New to Machine Learning or Kaggle? Start here.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/452634
+
+Title: Pausing high scoring kernel posting ?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468907
+
+Title: How do we get the unseen data before private test?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469255
+
+Title: "Submission Scoring Error" despite dummy value filling
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469344
+
+Title: New feature for production target
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468654
+
+Title: Suggestions for the last 15 days
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468588
+
+Title: How I got rid of the error "Submission Scoring Error"
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469448
+
+Title: Look out! Missing values in installed_capacity in the hidden test set
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468201
+
+Title: How to correctly use the currently_scored columns to skip the data
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469368
+
+Title: Patch for submission scoring error
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468774
+
+Title: Submission Error Fix
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469526
+
+Title: Strange values of euros_per_mwh in electricity.csv
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468877
+
+Title: 关于提交错误  Submission Scoring Error
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469586
+
+Title: AttributeError: 'LGBMRegressor' object has no attribute 'pedict'
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469086
+
+Title: target rolling features
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469150
+
+Title: Notebook threw Exception error ( My Val MAE is ~36 but not able to make submission )  - I was able to successfully commit my file
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469513
+
+Title: Auto embedding features made my score worse!
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469168
+
+Title: Assert statements in hidden runs
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469360
+
+Title: About model dump and load and match time limits ?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467562
+
+Title: MAE time frame for testing on Public and Private LB
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469271
+
+Title: Submission score
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469185
+
+Title: What happened so far? A quick summary of the discussions
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467035
+
+Title: Is the time period for the online code prediction in the Private phase from 2024.02.01 to 2024.04.30?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468656
+
+Title: Got "[LightGBM] [Fatal] bin size 257 cannot run on GPU"
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468500
+
+Title: "Freely & publicly available external data is allowed, including pre-trained models"
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/469057
+
+Title: LoFo vs Mutual Information importance scores
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467211
+
+Title: Numpy version's impact on LGBM model performance.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468233
+
+Title: What is the Best Approach for Stable Cross-Validation
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465641
+
+Title: RMSE Training to MAE Prediction
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468376
+
+Title: Electricity price form the API is behind a day
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468930
+
+Title: How about normalized eic_count/installed_capacity?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467394
+
+Title: Beyond the second moment of the rolling distribution
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463885
+
+Title: Target_shift & Target_norm_shift
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467588
+
+Title: Client dataframe
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468468
+
+Title: Beginner question about submission failure
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468430
+
+Title: Seeking Assistance with 'Notebook threw exception' Error during Kaggle Competition – Data Merging and CSV Output Questions
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468517
+
+Title: Anyone succeeds with NN?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466360
+
+Title: Can't access datetime in test?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468238
+
+Title: Suffering from timeout error
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/468261
+
+Title: weird units
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466650
+
+Title: Submission Time
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467878
+
+Title: Be careful when using "forecast_datetime" in forecast_weather.csv
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467638
+
+Title: Dates and data availability clarification
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467460
+
+Title: Seeking curated discussion threads to catch up and avoid missed points. Comment if anything's absent.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466612
+
+Title: Data_block_id is not very clear for me
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467727
+
+Title: Error in loading my local lightgbm model
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467833
+
+Title: Yet another submission scoring error
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467808
+
+Title: data_block_id of "test" data in API
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467545
+
+Title: 👀 Possibility of shakeup 🌦️
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/464998
+
+Title: Original method to reach LB 70
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/464650
+
+Title: 1000x speed-up on holidays features and remove add_holidays_as_binary_features
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466104
+
+Title: Solution summary for "Submission Scoring Error"
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466791
+
+Title: Considering county ID inside training features?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/467017
+
+Title: Shall we train in submission notebook?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466401
+
+Title: Incorrect error message returned by the scoring procedure? (Even all 0s prediction casused "Submission Scoring Error")
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462101
+
+Title: Seems that some types will plummet in January?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463774
+
+Title: About the validation schema
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465750
+
+Title: Need to take account of Data Shift every year
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466175
+
+Title: data block id 0 has no client?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465654
+
+Title: Probe Test - The Number of Scoring Days in the Publice LB
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463640
+
+Title: Submission API
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466737
+
+Title: Memory Allocation Error while Running Notebook
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466566
+
+Title: Will Data Prior to Private Test Set Be Revealed Through the Iterator?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461023
+
+Title: Weather station to county mapping
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466176
+
+Title: data_block_id not use in public notebooks
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465672
+
+Title: County Locations Data
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466090
+
+Title: Latest versions of essential libraries
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465332
+
+Title: Datasets Documentation - Summary for Kaggle Enefit
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/464858
+
+Title: About the warning message on public notebook wrt 1 warning generated.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466166
+
+Title: Kaggle solution write-up
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/466525
+
+Title: Is this competition the "parameter optimising race"?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465521
+
+Title: Train data is the same as current train data through evaluation period(after Feb.)??
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465878
+
+Title: Use of external data allowed, but with "internet disabled" ?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465843
+
+Title: Does the supplied data include all power consumers, or just prosumers?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465856
+
+Title: Batteries supply direction
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465069
+
+Title: Exception Issue on Submission - Is Anyone Else Experiencing This?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461342
+
+Title: origin_date is changed 00:00:00 to 02:00:00 ? Can anyone explain to me why?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465427
+
+Title: My solution for "Submission Scoring Error"
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465609
+
+Title: Neural Network usage
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463830
+
+Title: are there incomplete days at private revealed_targets?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465228
+
+Title: Tip on submission errors
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/464872
+
+Title: is_business - Boolean for whether or not the prosumer is a business.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/465335
+
+Title: cloudcover are different?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/464763
+
+Title: Submission Scoring Error is actually Notebook threw Exception
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463560
+
+Title: What does "eic_count" mean??
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/457216
+
+Title: Are Data Updates Expected?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/464516
+
+Title: Using different models for is_consumption
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463900
+
+Title: Weather time correction patch notes (edited)
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459851
+
+Title: SOLVED ✅: Notebook successfully ran, submission.csv generated, but I get Submission Scoring Error
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461777
+
+Title: Timeline of availability of the data and data_block_id
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455833
+
+Title: why Submission Scoring Error?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/460603
+
+Title: Data patch notes
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455472
+
+Title: Can Pytorch work for this competition?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/464245
+
+Title: Clarification for product_type
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459697
+
+Title: Client data vs train - can production be greater than installed capacity?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/464021
+
+Title: [FINDINGS] strong correlation between "target" and "installed_capacity"
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455999
+
+Title: Tutorial Submission Scored Error or throw exception
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463931
+
+Title: Help your ML models with target normalization
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458144
+
+Title: Can I merge using data_block_id?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463943
+
+Title: Submission fails even though notebook has not errors
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463917
+
+Title: Submission Error Causes
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458042
+
+Title: what time ranges for public test and privates test?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463409
+
+Title: Scoring error while using reveled target values as well
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463847
+
+Title: Issues with Gas Price for the Private Dataset
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/464067
+
+Title: Electricity prices are not forecasted but realized. Same for the natural gas prices.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462366
+
+Title: Will deep neural networks work for this competition?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462632
+
+Title: Analysis of energy behaviour profiles of prosumers
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461028
+
+Title: Submission Failing
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463501
+
+Title: The lag days of revealed_targets
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453390
+
+Title: Scoring failed
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462915
+
+Title: Retraining model and available data after submission deadline
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462382
+
+Title: There was something called Duck Curve.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462693
+
+Title: How can we deal with 'nan' in column target during prediction phase
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462933
+
+Title: Tired of submission scoring errors
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461678
+
+Title: Is there any documentation for what the API returns or how to set up offline emulation of it?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458974
+
+Title: The unit of the target
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462802
+
+Title: There are missing dates in the train dataset
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462481
+
+Title: target value greater than installed_capacity??
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463105
+
+Title: County & location of points where weather is given
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454544
+
+Title: Submission Scoring Error
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453374
+
+Title: HOW TO SUBMIT！！（way to success for "submit"）
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458323
+
+Title: how to deal with row_id
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463035
+
+Title: Some duplicate rows in 'historical weather.csv'?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462858
+
+Title: How to measure weather data?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463099
+
+Title: Gas prices
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/463089
+
+Title: Run-time limits at evaluation
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462266
+
+Title: Confirmation on Data Availability in Each Competition Phase
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/460848
+
+Title: CV strategy
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461907
+
+Title: LOOKING FOR A TEAMMMATE
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462343
+
+Title: Can We Customize Pre-Built Deep Learning Models?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461711
+
+Title: GBDTs and non-stationarity
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461505
+
+Title: How many days we need to predict?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453817
+
+Title: BIG DIFFERENCE BETWEEN PUBLIC SCOREBOARD SCORE AND CV SCORE EITH TRAINING DATA
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462859
+
+Title: Looking for collaboration / team.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462644
+
+Title: Discrepancy between validate and test data
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462504
+
+Title: Non-tabular approach?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462501
+
+Title: Five chances a day to locate the error?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462467
+
+Title: Using Darts library offline
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462034
+
+Title: use  enefit in local
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461786
+
+Title: Notebook Error
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462163
+
+Title: county_id_to_name_map.json
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462283
+
+Title: Issues with revealed_targets in the test API
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/462030
+
+Title: can not import enefit in Kaggle notebook
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461975
+
+Title: Surface Radiation Feature Differences between Weather Datasets?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458995
+
+Title: Problems with the Data during Daylight and Standard Time Changes
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/460529
+
+Title: I think some data is missing. Look at the graph.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461410
+
+Title: Looking for a team
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461837
+
+Title: requirements.txt
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461971
+
+Title: Continuity of Datasets and Its Impact on Model Design
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459425
+
+Title: Which variable is the target?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461430
+
+Title: Submission Scoring Error - With Cause and Solution!
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461684
+
+Title: 📚🔮🏆 Good Resources to refer to from previous Prediction Competitions💥📚🏆
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453386
+
+Title: forecast length in one piece
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461435
+
+Title: train has a target for test dates?? why??
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/460385
+
+Title: Only solar power?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461242
+
+Title: Where is Unknown county located? (county=12)
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454654
+
+Title: 可以保存训练模型文件 测试的时候读取吗
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458185
+
+Title: Inconsistency between locally compute LB score and actual LB score
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/460836
+
+Title: what location weather of county code 12 ?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/461025
+
+Title: Can I concat history weather and history target on data_train into testing ?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459202
+
+Title: Is it posssible to access to more than 2days ago target from revealed_targets dataframe?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/460424
+
+Title: No module named 'enefit'
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459868
+
+Title: problem with historical weather data?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453980
+
+Title: Plenty of 72.87 arriving
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455092
+
+Title: Sharing my Simple Dashboard Implemented with Dash
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459322
+
+Title: Error about enefit.make_env():  You can only call `make_env()` once.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/460132
+
+Title: Can I join somebody's team?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/460521
+
+Title: 👀 Seasonality considerations 🌸
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459753
+
+Title: Duplicate values in weathermap data
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/460017
+
+Title: Submission Scoring Error
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459526
+
+Title: Enefit: How to merge the data?!?!
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455100
+
+Title: Mysterious County 12/16/0?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459064
+
+Title: Can the self trained model be saved?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458187
+
+Title: Gas prices data_block_id
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459515
+
+Title: Exception: You can only call `make_env()` once.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/456151
+
+Title: There are provinces with only 1 weather location
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459175
+
+Title: Only useful tree based model(LGBM etc)?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458889
+
+Title: Submission Error
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459012
+
+Title: Values to expect in API files?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/459055
+
+Title: Data files
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458942
+
+Title: Big overfitting on training data?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454686
+
+Title: Unusual Participant Trends in a Tabular Data Competition?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458058
+
+Title: Does the `target` value effected if Customer has Energy Storage option onsite?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458482
+
+Title: Anyone successful in using multiple models?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458469
+
+Title: Weather data, dates forecasted multiple times
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458008
+
+Title: It is prediction for prosumer segment and not for prosumer(Technically)
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/457792
+
+Title: how can i use the .so file? and how i run "import enefit" on my own python env?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/457426
+
+Title: Production of electricity between midnight and 2 o'clock
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/457445
+
+Title: "Submission Scoring Error." Please help me find any errors.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458321
+
+Title: Is the time zone the same for all data?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454145
+
+Title: Submission error
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/458118
+
+Title: I'm new to Kaggle.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454793
+
+Title: New Prediction Units in the Test Set
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/456369
+
+Title: Submission Error
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454248
+
+Title: Operational environment issues
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454896
+
+Title: Help me with how API works APIの使い方がわかりません…。
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/456662
+
+Title: Timeframe for Phase 1 private test set?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455011
+
+Title: hidden test set feature engineering
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/457364
+
+Title: Holidays and Anniversaries in Estonia
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/456282
+
+Title: Gas/Electricity Prices
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/456636
+
+Title: From MIT Technology Review: Four ways AI is making the power grid faster and more resilient
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/456988
+
+Title: How to merge train data with weather data? 訓練データと天気データの結合方法はどうしていますか？
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455943
+
+Title: Understanding the task and data of the competition
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/456873
+
+Title: Notebooks feature shifting data_block_id by +2
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/456085
+
+Title: Data preprocessing with DAX
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/456576
+
+Title: Only one of two identically formatted submission.csv files succeed for submission
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/456497
+
+Title: product_type | Types of contracts in enrgy partnership explained
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454898
+
+Title: CV/Validation correlation with LB
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455461
+
+Title: Time Split Validation is not better than simple validation
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455781
+
+Title: Revealed target : a comparison between train & test set
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455324
+
+Title: Error with Enefit API
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454186
+
+Title: general misunderstanding
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455423
+
+Title: Outliers in dataset(target)
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455658
+
+Title: question re: timeseries modeling
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455347
+
+Title: Loading pretrained model (and possibly leaked future information) allowed?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454806
+
+Title: how to connect training data to Installed_capacity
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454958
+
+Title: data_block_id alignment
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453008
+
+Title: Time-series API
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455171
+
+Title: 🐼🚀Accelerate Pandas on GPU with RAPIDS cudf
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454738
+
+Title: References and starting materials
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/452687
+
+Title: weird voids in 'target' around 1/1/22 & 1/1/23 (alpha=1)
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454865
+
+Title: prediction_unit_id definition
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454857
+
+Title: Stratify data for CV
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455216
+
+Title: Hidden test reveled target data
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454842
+
+Title: A question about the data
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454881
+
+Title: electricity_prices may be negative?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454932
+
+Title: Cloud cover
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454453
+
+Title: [please see this post. When will the historical weather data be revised?]
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455066
+
+Title: datetime vs prediction_datetime vs forecast_date
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454573
+
+Title: Entering competition without intending on receiving the prize/handing over code
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454188
+
+Title: Weather historical data
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/455225
+
+Title: only able to iterate over `iter_test()` once
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454835
+
+Title: How many days of historical data in testing?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454712
+
+Title: Weather data // Preceding (!) hour
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454017
+
+Title: Weather forecast data for test data
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454386
+
+Title: Light automl
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454081
+
+Title: Confused on Gas Prices csv
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454020
+
+Title: prediction with .clip(0)
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453357
+
+Title: Using mSSA model
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453990
+
+Title: Why is the private leaderboard only based on 4% of the test data?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/452938
+
+Title: Desired output of the model
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/454208
+
+Title: How do I approach this competition?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453517
+
+Title: Electricity_prices data set, is it ok?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453241
+
+Title: Prosumer Concept, Clusters & Society Paradigm . "PROduce and conSUME our output, we are Prosuming”.
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/452648
+
+Title: Naive Regression or Time-series Forecasting?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/452815
+
+Title: Why do we use the API for submission?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/452935
+
+Title: Temperature data correction
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/452829
+
+Title: ARM64 Compiled SO file
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453843
+
+Title: prediction_unit_id's in test data
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453564
+
+Title: forecasting prices?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453355
+
+Title: Kaggle forecasting competitions: An overlooked learning opportunity. Interesting Papers
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/452932
+
+Title: How to set the initial submission?
+URL: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/453174
+

@@ -1,0 +1,963 @@
+Title: DeepTables NN + LGBM Ensemble
+ URL: https://www.kaggle.com/code/yekenot/deeptables-nn-lgbm-ensemble
+
+Title: ENEFIT : Simple Neural Network
+ URL: https://www.kaggle.com/code/rayanaay/enefit-simple-neural-network
+
+Title: Enefit: applying fastai course material
+ URL: https://www.kaggle.com/code/uzdavinys/enefit-applying-fastai-course-material
+
+Title: Enefit Data Explore: Client Capacity & eic_count
+ URL: https://www.kaggle.com/code/activescott/enefit-data-explore-client-capacity-eic-count
+
+Title: Enefit Public Ensemble Accelerated on GPU
+ URL: https://www.kaggle.com/code/aerdem4/enefit-public-ensemble-accelerated-on-gpu
+
+Title: [V3 Tuned]Enefit PEBOP: EDA (Plotly) and Modelling
+ URL: https://www.kaggle.com/code/kononenko/v3-tuned-enefit-pebop-eda-plotly-and-modelling
+
+Title: enefit: mean catboost
+ URL: https://www.kaggle.com/code/kensomeya/enefit-mean-catboost
+
+Title: Sankey Diagrams + Time Series Plots
+ URL: https://www.kaggle.com/code/robertturro/sankey-diagrams-time-series-plots
+
+Title: 🌐 Multi-Model Clean Code 🧹
+ URL: https://www.kaggle.com/code/zulqarnainali/multi-model-clean-code
+
+Title: LGBM feature importance - MAE 57.79
+ URL: https://www.kaggle.com/code/axelrk200/lgbm-feature-importance-mae-57-79
+
+Title: Enefit EDA Baseline
+ URL: https://www.kaggle.com/code/seoyunje/enefit-eda-baseline
+
+Title: ENF_lgb_train_debug
+ URL: https://www.kaggle.com/code/bohaoxu/enf-lgb-train-debug
+
+Title: Enefit EDA: first look at train.csv&test.csv
+ URL: https://www.kaggle.com/code/ozoozo/enefit-eda-first-look-at-train-csv-test-csv
+
+Title: Enefit: LB=65.39
+ URL: https://www.kaggle.com/code/qllqll/enefit-lb-65-39
+
+Title: ⚡ KD EDA📈 2nd|kr
+ URL: https://www.kaggle.com/code/wjeanvyun/kd-eda-2nd-kr
+
+Title: Enefit LOFO Feature Importance
+ URL: https://www.kaggle.com/code/aerdem4/enefit-lofo-feature-importance
+
+Title: Just_Average
+ URL: https://www.kaggle.com/code/axelrk200/just-average
+
+Title: Enefit Polars FE | Daily&Monthly
+ URL: https://www.kaggle.com/code/seoyunje/enefit-polars-fe-daily-monthly
+
+Title: Enefit_LSTM_starter
+ URL: https://www.kaggle.com/code/mzaoualim/enefit-lstm-starter
+
+Title: Enefit, EDA: product type vs county
+ URL: https://www.kaggle.com/code/ozoozo/enefit-eda-product-type-vs-county
+
+Title: PEBOP: EDA (Plotly) and Modelling | KR
+ URL: https://www.kaggle.com/code/wjeanvyun/pebop-eda-plotly-and-modelling-kr
+
+Title: single_lgbmodel_train_val_split
+ URL: https://www.kaggle.com/code/kdafke123141/single-lgbmodel-train-val-split
+
+Title: Enefit : Production and Solar Radiation - EDA
+ URL: https://www.kaggle.com/code/wjeanvyun/enefit-production-and-solar-radiation-eda
+
+Title: enefit - geospatial clustering
+ URL: https://www.kaggle.com/code/mccasey/enefit-geospatial-clustering
+
+Title: Enefit_EDA
+ URL: https://www.kaggle.com/code/treetreeanderson/enefit-eda
+
+Title: [bogyo] EDA
+ URL: https://www.kaggle.com/code/hijump/bogyo-eda
+
+Title: ⚡KD│XGBoost│update | KR⚡
+ URL: https://www.kaggle.com/code/wjeanvyun/kd-xgboost-update-kr
+
+Title: Enefit - Predict Energy Behavior of Prosumers
+ URL: https://www.kaggle.com/code/tikadisplay/enefit-predict-energy-behavior-of-prosumers
+
+Title: lgbm_baseline_holidays_and_locations
+ URL: https://www.kaggle.com/code/pashakrapivin/lgbm-baseline-holidays-and-locations
+
+Title: Engineering datetime variables
+ URL: https://www.kaggle.com/code/usama233333/engineering-datetime-variables
+
+Title: Enefit PEBOP: EDA (Plotly) and Modelling save mode
+ URL: https://www.kaggle.com/code/asimandia/enefit-pebop-eda-plotly-and-modelling-save-mode
+
+Title: Enefit AutoML Starter Notebook using AutoGluon
+ URL: https://www.kaggle.com/code/alexvmt/enefit-automl-starter-notebook-using-autogluon
+
+Title: Enefit AutoGluon Submission Notebook
+ URL: https://www.kaggle.com/code/alexvmt/enefit-autogluon-submission-notebook
+
+Title: Enefit: Object Oriented GBDT 188e67
+ URL: https://www.kaggle.com/code/auliarinili/enefit-object-oriented-gbdt-188e67
+
+Title: Enefit: Object Oriented GBDT : Increase GPU util
+ URL: https://www.kaggle.com/code/chanakanponpueng/enefit-object-oriented-gbdt-increase-gpu-util
+
+Title: Enefit_trial
+ URL: https://www.kaggle.com/code/uerou87/enefit-trial
+
+Title: Enefit- ✅ LGBM baseline
+ URL: https://www.kaggle.com/code/hallojong0319/enefit-lgbm-baseline
+
+Title: Enefit lb 65.65
+ URL: https://www.kaggle.com/code/vcode1509/enefit-lb-65-65
+
+Title: Enefit Prediction: Holiday Analysis
+ URL: https://www.kaggle.com/code/finlay/enefit-prediction-holiday-analysis
+
+Title: Log1p_target_LGBM
+ URL: https://www.kaggle.com/code/xxbxyae/log1p-target-lgbm
+
+Title: DeepTables NN + LGBM Ensemble
+ URL: https://www.kaggle.com/code/yekenot/deeptables-nn-lgbm-ensemble
+
+Title: ENEFIT : Simple Neural Network
+ URL: https://www.kaggle.com/code/rayanaay/enefit-simple-neural-network
+
+Title: Enefit: applying fastai course material
+ URL: https://www.kaggle.com/code/uzdavinys/enefit-applying-fastai-course-material
+
+Title: Enefit Data Explore: Client Capacity & eic_count
+ URL: https://www.kaggle.com/code/activescott/enefit-data-explore-client-capacity-eic-count
+
+Title: Enefit Public Ensemble Accelerated on GPU
+ URL: https://www.kaggle.com/code/aerdem4/enefit-public-ensemble-accelerated-on-gpu
+
+Title: [V3 Tuned]Enefit PEBOP: EDA (Plotly) and Modelling
+ URL: https://www.kaggle.com/code/kononenko/v3-tuned-enefit-pebop-eda-plotly-and-modelling
+
+Title: enefit: mean catboost
+ URL: https://www.kaggle.com/code/kensomeya/enefit-mean-catboost
+
+Title: Sankey Diagrams + Time Series Plots
+ URL: https://www.kaggle.com/code/robertturro/sankey-diagrams-time-series-plots
+
+Title: 🌐 Multi-Model Clean Code 🧹
+ URL: https://www.kaggle.com/code/zulqarnainali/multi-model-clean-code
+
+Title: LGBM feature importance - MAE 57.79
+ URL: https://www.kaggle.com/code/axelrk200/lgbm-feature-importance-mae-57-79
+
+Title: Enefit EDA Baseline
+ URL: https://www.kaggle.com/code/seoyunje/enefit-eda-baseline
+
+Title: ENF_lgb_train_debug
+ URL: https://www.kaggle.com/code/bohaoxu/enf-lgb-train-debug
+
+Title: Enefit EDA: first look at train.csv&test.csv
+ URL: https://www.kaggle.com/code/ozoozo/enefit-eda-first-look-at-train-csv-test-csv
+
+Title: Enefit: LB=65.39
+ URL: https://www.kaggle.com/code/qllqll/enefit-lb-65-39
+
+Title: ⚡ KD EDA📈 2nd|kr
+ URL: https://www.kaggle.com/code/wjeanvyun/kd-eda-2nd-kr
+
+Title: Enefit LOFO Feature Importance
+ URL: https://www.kaggle.com/code/aerdem4/enefit-lofo-feature-importance
+
+Title: Just_Average
+ URL: https://www.kaggle.com/code/axelrk200/just-average
+
+Title: Enefit Polars FE | Daily&Monthly
+ URL: https://www.kaggle.com/code/seoyunje/enefit-polars-fe-daily-monthly
+
+Title: Enefit_LSTM_starter
+ URL: https://www.kaggle.com/code/mzaoualim/enefit-lstm-starter
+
+Title: Enefit, EDA: product type vs county
+ URL: https://www.kaggle.com/code/ozoozo/enefit-eda-product-type-vs-county
+
+Title: PEBOP: EDA (Plotly) and Modelling | KR
+ URL: https://www.kaggle.com/code/wjeanvyun/pebop-eda-plotly-and-modelling-kr
+
+Title: single_lgbmodel_train_val_split
+ URL: https://www.kaggle.com/code/kdafke123141/single-lgbmodel-train-val-split
+
+Title: Enefit : Production and Solar Radiation - EDA
+ URL: https://www.kaggle.com/code/wjeanvyun/enefit-production-and-solar-radiation-eda
+
+Title: enefit - geospatial clustering
+ URL: https://www.kaggle.com/code/mccasey/enefit-geospatial-clustering
+
+Title: Enefit_EDA
+ URL: https://www.kaggle.com/code/treetreeanderson/enefit-eda
+
+Title: [bogyo] EDA
+ URL: https://www.kaggle.com/code/hijump/bogyo-eda
+
+Title: ⚡KD│XGBoost│update | KR⚡
+ URL: https://www.kaggle.com/code/wjeanvyun/kd-xgboost-update-kr
+
+Title: Enefit - Predict Energy Behavior of Prosumers
+ URL: https://www.kaggle.com/code/tikadisplay/enefit-predict-energy-behavior-of-prosumers
+
+Title: lgbm_baseline_holidays_and_locations
+ URL: https://www.kaggle.com/code/pashakrapivin/lgbm-baseline-holidays-and-locations
+
+Title: Engineering datetime variables
+ URL: https://www.kaggle.com/code/usama233333/engineering-datetime-variables
+
+Title: Enefit PEBOP: EDA (Plotly) and Modelling save mode
+ URL: https://www.kaggle.com/code/asimandia/enefit-pebop-eda-plotly-and-modelling-save-mode
+
+Title: Enefit AutoML Starter Notebook using AutoGluon
+ URL: https://www.kaggle.com/code/alexvmt/enefit-automl-starter-notebook-using-autogluon
+
+Title: Enefit AutoGluon Submission Notebook
+ URL: https://www.kaggle.com/code/alexvmt/enefit-autogluon-submission-notebook
+
+Title: Enefit: Object Oriented GBDT 188e67
+ URL: https://www.kaggle.com/code/auliarinili/enefit-object-oriented-gbdt-188e67
+
+Title: Enefit: Object Oriented GBDT : Increase GPU util
+ URL: https://www.kaggle.com/code/chanakanponpueng/enefit-object-oriented-gbdt-increase-gpu-util
+
+Title: Enefit_trial
+ URL: https://www.kaggle.com/code/uerou87/enefit-trial
+
+Title: Enefit- ✅ LGBM baseline
+ URL: https://www.kaggle.com/code/hallojong0319/enefit-lgbm-baseline
+
+Title: Enefit lb 65.65
+ URL: https://www.kaggle.com/code/vcode1509/enefit-lb-65-65
+
+Title: Enefit Prediction: Holiday Analysis
+ URL: https://www.kaggle.com/code/finlay/enefit-prediction-holiday-analysis
+
+Title: Log1p_target_LGBM
+ URL: https://www.kaggle.com/code/xxbxyae/log1p-target-lgbm
+
+Title: Overview understanding + EDA (in Japanese/日本語)
+ URL: https://www.kaggle.com/code/takashi030210/overview-understanding-eda-in-japanese
+
+Title: ✨EDA and Comments (Updated)
+ URL: https://www.kaggle.com/code/leucanthos/eda-and-comments-updated
+
+Title: Enefit PEBOP: EDA (Plotly) and Modelling
+ URL: https://www.kaggle.com/code/siddhvr/enefit-pebop-eda-plotly-and-modelling
+
+Title: Enefit - Best LB shared with early stop
+ URL: https://www.kaggle.com/code/wjeanvyun/enefit-best-lb-shared-with-early-stop
+
+Title: train LGBM on Google Colab to be used in kaggle
+ URL: https://www.kaggle.com/code/onurrr90/train-lgbm-on-google-colab-to-be-used-in-kaggle
+
+Title: big_voting_lgbm_workdays6228
+ URL: https://www.kaggle.com/code/wasjaip/big-voting-lgbm-workdays6228
+
+Title: Using GPU solution without wasting 30h GPU Quota
+ URL: https://www.kaggle.com/code/onurrr90/using-gpu-solution-without-wasting-30h-gpu-quota
+
+Title: Enefit
+ URL: https://www.kaggle.com/code/farzonaeraj/enefit
+
+Title: Enefit: Target Diff
+ URL: https://www.kaggle.com/code/vitalykudelya/enefit-target-diff
+
+Title: Building Complete Train Data
+ URL: https://www.kaggle.com/code/robertturro/building-complete-train-data
+
+Title: notebook0983271dd0
+ URL: https://www.kaggle.com/code/danielgyebnar/notebook0983271dd0
+
+Title: MLP attempt
+ URL: https://www.kaggle.com/code/mattiafornasiero/mlp-attempt
+
+Title: Enefit | Data 📈 and Insights💡
+ URL: https://www.kaggle.com/code/mrriandmstique/enefit-data-and-insights
+
+Title: PREDICTION OF ENERGY BEHAVIOUR OF PROSUMERS
+ URL: https://www.kaggle.com/code/sarahyeboahm/prediction-of-energy-behaviour-of-prosumers
+
+Title: Enefit - PEBOP LGBM auto-find
+ URL: https://www.kaggle.com/code/lmipicaec/enefit-pebop-lgbm-auto-find
+
+Title: 📍Enefit: Using Darts library 🔍
+ URL: https://www.kaggle.com/code/hallojong0319/enefit-using-darts-library
+
+Title: enefit_energy_neuralnetwork
+ URL: https://www.kaggle.com/code/anmolgarg1998/enefit-energy-neuralnetwork
+
+Title: enefit_baseline
+ URL: https://www.kaggle.com/code/dhanyabahadur/enefit-baseline
+
+Title: Enefit: Predict Energy Behavior | Data Viz
+ URL: https://www.kaggle.com/code/rishabhvijay/enefit-predict-energy-behavior-data-viz
+
+Title: LB = 66.07
+ URL: https://www.kaggle.com/code/ruiyaoyang/lb-66-07
+
+Title: Explained Enfit+LGBM Model
+ URL: https://www.kaggle.com/code/zulqarnainali/explained-enfit-lgbm-model
+
+Title: Enefit Estonian Holidays LB=65.79
+ URL: https://www.kaggle.com/code/albansteff/enefit-estonian-holidays-lb-65-79
+
+Title: Explained Early stopping method
+ URL: https://www.kaggle.com/code/zulqarnainali/explained-early-stopping-method
+
+Title: LB = 66.09
+ URL: https://www.kaggle.com/code/vyacheslavbolotin/lb-66-09
+
+Title: new_6628
+ URL: https://www.kaggle.com/code/wasjaipmailru/new-6628
+
+Title: LGBM ensemble
+ URL: https://www.kaggle.com/code/minhsienweng/lgbm-ensemble
+
+Title: Testing
+ URL: https://www.kaggle.com/code/stealthtechnologies/testing
+
+Title: LB = 66.??
+ URL: https://www.kaggle.com/code/vyacheslavbolotin/lb-66
+
+Title: LB = 66.82
+ URL: https://www.kaggle.com/code/vyacheslavbolotin/lb-66-82
+
+Title: Predict_energy
+ URL: https://www.kaggle.com/code/fernandosr85/predict-energy
+
+Title: LB=66.92
+ URL: https://www.kaggle.com/code/ruiyaoyang/lb-66-92
+
+Title: LB = 66.97
+ URL: https://www.kaggle.com/code/vyacheslavbolotin/lb-66-97
+
+Title: Enefit Increase Test Size|lb 67.38
+ URL: https://www.kaggle.com/code/vcode1509/enefit-increase-test-size-lb-67-38
+
+Title: xgboost-test
+ URL: https://www.kaggle.com/code/aireba/xgboost-test
+
+Title: Let's start using GPU
+ URL: https://www.kaggle.com/code/onurrr90/let-s-start-using-gpu
+
+Title: plot each type's two kinds of series
+ URL: https://www.kaggle.com/code/takanashihumbert/plot-each-type-s-two-kinds-of-series
+
+Title: 🚀Enefit- ✅ Start: EDA
+ URL: https://www.kaggle.com/code/hallojong0319/enefit-start-eda
+
+Title: lb_67.48
+ URL: https://www.kaggle.com/code/newtonbaba12345/lb-67-48
+
+Title: Enefit: Object Oriented GBDT
+ URL: https://www.kaggle.com/code/vitalykudelya/enefit-object-oriented-gbdt
+
+Title: Enefit - lgb with regression_l1 objective
+ URL: https://www.kaggle.com/code/davero/enefit-lgb-with-regression-l1-objective
+
+Title: [GPU train] LGBM model (2X)
+ URL: https://www.kaggle.com/code/minhsienweng/gpu-train-lgbm-model-2x
+
+Title: Enefit
+ URL: https://www.kaggle.com/code/pattaraponjindaboot/enefit
+
+Title: 🎄create label and viewing（English/日本語）
+ URL: https://www.kaggle.com/code/stechparme/create-label-and-viewing-english
+
+Title: Technical Analysis features
+ URL: https://www.kaggle.com/code/kensomeya/technical-analysis-features
+
+Title: Enefit - PEBOP LGBM sub
+ URL: https://www.kaggle.com/code/aireba/enefit-pebop-lgbm-sub
+
+Title: Energy pred by Azure Data Factory,ML,Data Bricks
+ URL: https://www.kaggle.com/code/loki97/energy-pred-by-azure-data-factory-ml-data-bricks
+
+Title: Enefit - XGBoost
+ URL: https://www.kaggle.com/code/billalpervaz/enefit-xgboost
+
+Title: Enefit - Predict Energy Behavior of Prosumers |
+ URL: https://www.kaggle.com/code/rishabhvijay/enefit-predict-energy-behavior-of-prosumers
+
+Title: 👀viewing data EDA+α
+ URL: https://www.kaggle.com/code/stechparme/viewing-data-eda
+
+Title: Optimizing decision trees
+ URL: https://www.kaggle.com/code/xbg123/optimizing-decision-trees
+
+Title: Enefit - Predict Energy By LGBM Pandas
+ URL: https://www.kaggle.com/code/caoofficial/enefit-predict-energy-by-lgbm-pandas
+
+Title: Pandas & Using Enefit-models
+ URL: https://www.kaggle.com/code/andrusha95/pandas-using-enefit-models
+
+Title: 【Enefit】消費電力予測_EDA(日本語)
+ URL: https://www.kaggle.com/code/yutotamura/enefit-eda
+
+Title: Enefit - Tableau Visualization-Still WIP
+ URL: https://www.kaggle.com/code/najeebz/enefit-tableau-visualization-still-wip
+
+Title: Enefit - Predict Energy Behaviour Sub
+ URL: https://www.kaggle.com/code/aireba/enefit-predict-energy-behaviour-sub
+
+Title: notebook74e0c3bc03
+ URL: https://www.kaggle.com/code/peterhopkinson/notebook74e0c3bc03
+
+Title: The power of .clip(0)
+ URL: https://www.kaggle.com/code/mcsweena/the-power-of-clip-0
+
+Title: Enefit - Best LB shared with early stop
+ URL: https://www.kaggle.com/code/renatoreggiani/enefit-best-lb-shared-with-early-stop
+
+Title: log transformation and how it change
+ URL: https://www.kaggle.com/code/kensomeya/log-transformation-and-how-it-change
+
+Title: Enefit-EDA Geographic Explanation(日本語)
+ URL: https://www.kaggle.com/code/akirasarashina/enefit-eda-geographic-explanation
+
+Title: Enefit | EDA w/ FFT+SSA | LGBM+Voting Regressor
+ URL: https://www.kaggle.com/code/chaozhuang/enefit-eda-w-fft-ssa-lgbm-voting-regressor
+
+Title: The Effect of New Prediction Unit IDs in Testset
+ URL: https://www.kaggle.com/code/mcsweena/the-effect-of-new-prediction-unit-ids-in-testset
+
+Title: EDA+TIME SERIES ANALYSIS
+ URL: https://www.kaggle.com/code/benjaminboafo/eda-time-series-analysis
+
+Title: MockApi_local_itertool
+ URL: https://www.kaggle.com/code/roger92/mockapi-local-itertool
+
+Title: Enefit PEBOP: LGBM ensemble
+ URL: https://www.kaggle.com/code/siddhvr/enefit-pebop-lgbm-ensemble
+
+Title: 🧠EDA + FE Design : Enefit - Predict Energy
+ URL: https://www.kaggle.com/code/vshantam/eda-fe-design-enefit-predict-energy
+
+Title: basic EDA
+ URL: https://www.kaggle.com/code/wjeanvyun/basic-eda
+
+Title: Fork of Explain Dataset and Baseline simple_adj
+ URL: https://www.kaggle.com/code/roger92/fork-of-explain-dataset-and-baseline-simple-adj
+
+Title: Starter | LGBM and R-Forest
+ URL: https://www.kaggle.com/code/squarehare/starter-lgbm-and-r-forest
+
+Title: EDA-Initial book-Still WIP
+ URL: https://www.kaggle.com/code/najeebz/eda-initial-book-still-wip
+
+Title: 🔋Pandas | Data Description and Starters Guide🔋
+ URL: https://www.kaggle.com/code/finlay/pandas-data-description-and-starters-guide
+
+Title: Enefit Prediction: From 0 to 1 [中文]
+ URL: https://www.kaggle.com/code/finlay/enefit-prediction-from-0-to-1
+
+Title: Enefit Prediction: Polars 101 [中文]
+ URL: https://www.kaggle.com/code/finlay/enefit-prediction-polars-101
+
+Title: Timeseries cross_val_score and GridSearchCV
+ URL: https://www.kaggle.com/code/sermakarevich/timeseries-cross-val-score-and-gridsearchcv
+
+Title: 🤗🧐Easy data visualization
+ URL: https://www.kaggle.com/code/risakashiwabara/easy-data-visualization
+
+Title: Date range of test data at same data_block_id
+ URL: https://www.kaggle.com/code/essay345/date-range-of-test-data-at-same-data-block-id
+
+Title: notebookf01ba9dcbe
+ URL: https://www.kaggle.com/code/gopalakrishnankumar/notebookf01ba9dcbe
+
+Title: notebook79f326108e
+ URL: https://www.kaggle.com/code/gopalakrishnankumar/notebook79f326108e
+
+Title: gpu_ergo_lite_v2_lgb_cat
+ URL: https://www.kaggle.com/code/wasjaip/gpu-ergo-lite-v2-lgb-cat
+
+Title: Very Basis Neural Network
+ URL: https://www.kaggle.com/code/lucamtb/very-basis-neural-network
+
+Title: enefit_231208
+ URL: https://www.kaggle.com/code/kimnakkyum/enefit-231208
+
+Title: Enefit - PEBOP LGBM sub
+ URL: https://www.kaggle.com/code/siddhvr/enefit-pebop-lgbm-sub
+
+Title: energy comp
+ URL: https://www.kaggle.com/code/mathemohlamme/energy-comp
+
+Title: Multilayer_Perceptron_Model_Test
+ URL: https://www.kaggle.com/code/emanuelduarte99/multilayer-perceptron-model-test
+
+Title: Time Series Analysis
+ URL: https://www.kaggle.com/code/marcosgalvo/time-series-analysis
+
+Title: Tabnet- Enefit PEBOP Baseline + new features
+ URL: https://www.kaggle.com/code/ozhiro/tabnet-enefit-pebop-baseline-new-features
+
+Title: Enefit - EDA, first exploration
+ URL: https://www.kaggle.com/code/andrealunch/enefit-eda-first-exploration
+
+Title: EDA+time_series_analysis
+ URL: https://www.kaggle.com/code/yossefazam/eda-time-series-analysis
+
+Title: Enefit_LDN_VNTM_VGH
+ URL: https://www.kaggle.com/code/ledangnguyn/enefit-ldn-vntm-vgh
+
+Title: Enefit | Darts Study Notes
+ URL: https://www.kaggle.com/code/greysky/enefit-darts-study-notes
+
+Title: [한국어ver]⚡Enefit│XGBoost│starter⚡
+ URL: https://www.kaggle.com/code/wksdnr123/ver-enefit-xgboost-starter
+
+Title: GBM Parameter optimization
+ URL: https://www.kaggle.com/code/manuelrenepaulstoews/gbm-parameter-optimization
+
+Title: Enefit - Quick EDA with Dash + MLP Baseline
+ URL: https://www.kaggle.com/code/abaojiang/enefit-quick-eda-with-dash-mlp-baseline
+
+Title: Enefit pebop submission- change HPs
+ URL: https://www.kaggle.com/code/nischaymahamana/enefit-pebop-submission-change-hps
+
+Title: Enefit_EDA
+ URL: https://www.kaggle.com/code/ahmedmlabib/enefit-eda
+
+Title: ✨Fikuśny Enefit✨
+ URL: https://www.kaggle.com/code/galu199/fiku-ny-enefit
+
+Title: Predict Energy Behavior of Prosumers(study note)
+ URL: https://www.kaggle.com/code/yunsuxiaozi/predict-energy-behavior-of-prosumers-study-note
+
+Title: Enefit_yj
+ URL: https://www.kaggle.com/code/macaron1217/enefit-yj
+
+Title: notebook29c3fbee81
+ URL: https://www.kaggle.com/code/yihongchung/notebook29c3fbee81
+
+Title: DM2023-GZHU : Enefit Forecast
+ URL: https://www.kaggle.com/code/zhangyuehua/dm2023-gzhu-enefit-forecast
+
+Title: Enefit
+ URL: https://www.kaggle.com/code/ritabanmitra/enefit
+
+Title: Enefit PEBOP Baseline + new features
+ URL: https://www.kaggle.com/code/zyhchasel/enefit-pebop-baseline-new-features
+
+Title: Explain Dataset and Baseline
+ URL: https://www.kaggle.com/code/vitalykudelya/explain-dataset-and-baseline
+
+Title: Simple copycat baseline
+ URL: https://www.kaggle.com/code/ginkobalboa/simple-copycat-baseline
+
+Title: enefit - lag feature
+ URL: https://www.kaggle.com/code/imtommi/enefit-lag-feature
+
+Title: Please help me slove "Submission Scoring Error"
+ URL: https://www.kaggle.com/code/bruceqdu/please-help-me-slove-submission-scoring-error
+
+Title: Weather station comp. notebook vs. CSV
+ URL: https://www.kaggle.com/code/guillaumehabault/weather-station-comp-notebook-vs-csv
+
+Title: ENEFIT_Predict_energy_behavior_EDA
+ URL: https://www.kaggle.com/code/serdargundogdu/enefit-predict-energy-behavior-eda
+
+Title: First_baseline
+ URL: https://www.kaggle.com/code/dkeylit/first-baseline
+
+Title: enefit-lgb_nvn
+ URL: https://www.kaggle.com/code/vladnerus/enefit-lgb-nvn
+
+Title: Enefit : Interpretation of Model with DALEX
+ URL: https://www.kaggle.com/code/negoto/enefit-interpretation-of-model-with-dalex
+
+Title: Simple: LinearReg, train.csv (no other data)
+ URL: https://www.kaggle.com/code/al1337/simple-linearreg-train-csv-no-other-data
+
+Title: notebook22240064bd
+ URL: https://www.kaggle.com/code/jenilgajjar/notebook22240064bd
+
+Title: [Enefit] making data like test data set format
+ URL: https://www.kaggle.com/code/sooyoungher/enefit-making-data-like-test-data-set-format
+
+Title: Run train data with the API
+ URL: https://www.kaggle.com/code/ginkobalboa/run-train-data-with-the-api
+
+Title: Enefit PEBOP Baseline
+ URL: https://www.kaggle.com/code/siddhvr/enefit-pebop-baseline
+
+Title: Do you desire sun power 🔆
+ URL: https://www.kaggle.com/code/patrick0302/do-you-desire-sun-power
+
+Title: wzt_test
+ URL: https://www.kaggle.com/code/tommywangzt/wzt-test
+
+Title: Enefit Baseline
+ URL: https://www.kaggle.com/code/ruiningjing/enefit-baseline
+
+Title: 71.4 lb
+ URL: https://www.kaggle.com/code/namanbansal4122/71-4-lb
+
+Title: Enefit Basic analyse revelead target
+ URL: https://www.kaggle.com/code/lucamtb/enefit-basic-analyse-revelead-target
+
+Title: Eenefit-Predict Energy Behaviour
+ URL: https://www.kaggle.com/code/anubhavtyagi1212/eenefit-predict-energy-behaviour
+
+Title: Understanding the task and data of the competition
+ URL: https://www.kaggle.com/code/bruceqdu/understanding-the-task-and-data-of-the-competition
+
+Title: Simple Baseline
+ URL: https://www.kaggle.com/code/evan918/simple-baseline
+
+Title: Understanding data- Using pyspark
+ URL: https://www.kaggle.com/code/manishatankasala/understanding-data-using-pyspark
+
+Title: Enefit EDA + Profiling + Reading Data
+ URL: https://www.kaggle.com/code/pariyawan02/enefit-eda-profiling-reading-data
+
+Title: [Enefit] LightGBM Baseline
+ URL: https://www.kaggle.com/code/dulee1206/enefit-lightgbm-baseline
+
+Title: Train data exploration analysis
+ URL: https://www.kaggle.com/code/augustoumaa/train-data-exploration-analysis
+
+Title: ⚡Enefit⚡: Time Series Analysis 📈| EDA | SARIMAX
+ URL: https://www.kaggle.com/code/aniketkolte04/enefit-time-series-analysis-eda-sarimax
+
+Title: time_series_analysis_of_Enefit
+ URL: https://www.kaggle.com/code/gagandeep44489/time-series-analysis-of-enefit
+
+Title: 🧪 Imputing Strategies for Revealed Target
+ URL: https://www.kaggle.com/code/rayanaay/imputing-strategies-for-revealed-target
+
+Title: Simplest LightGBM prediction for Enefit
+ URL: https://www.kaggle.com/code/inuinuinu/simplest-lightgbm-prediction-for-enefit
+
+Title: EFit EDA | 3D Plotly
+ URL: https://www.kaggle.com/code/franklinshih0617/efit-eda-3d-plotly
+
+Title: 72.42 lb score
+ URL: https://www.kaggle.com/code/namanbansal4122/72-42-lb-score
+
+Title: [Enefit] TabNet Baseline
+ URL: https://www.kaggle.com/code/dulee1206/enefit-tabnet-baseline
+
+Title: EDA_Wind_pattern
+ URL: https://www.kaggle.com/code/ainjhamn526/eda-wind-pattern
+
+Title: [ENEFIT] How to use pivot/melt efficiently
+ URL: https://www.kaggle.com/code/bowaka/enefit-how-to-use-pivot-melt-efficiently
+
+Title: Auto EDA(sweetviz) + extensive analytics
+ URL: https://www.kaggle.com/code/avtandyl/auto-eda-sweetviz-extensive-analytics
+
+Title: Enefit Generic Notebook
+ URL: https://www.kaggle.com/code/greysky/enefit-generic-notebook
+
+Title: Enefit_EDA
+ URL: https://www.kaggle.com/code/subhasishsinha/enefit-eda
+
+Title: Enefit - Predict Energy Behavior of Prosumers
+ URL: https://www.kaggle.com/code/enricomanosperti/enefit-predict-energy-behavior-of-prosumers
+
+Title: Convert weather (lat/lon to county) using weights
+ URL: https://www.kaggle.com/code/radoslawszostak/convert-weather-lat-lon-to-county-using-weights
+
+Title: Enefit : Zero ML Baselines + Validation
+ URL: https://www.kaggle.com/code/negoto/enefit-zero-ml-baselines-validation
+
+Title: More revealed from target_revealed🔍  78
+ URL: https://www.kaggle.com/code/finlay/more-revealed-from-target-revealed-78
+
+Title: 📈 🎛️ Interactive time series dashboard
+ URL: https://www.kaggle.com/code/radoslawszostak/interactive-time-series-dashboard
+
+Title: EDA with Tensorflow Data Validation
+ URL: https://www.kaggle.com/code/alexandremoritz/eda-with-tensorflow-data-validation
+
+Title: Weather points vs county boundaries
+ URL: https://www.kaggle.com/code/fnrsml/weather-points-vs-county-boundaries
+
+Title: Points where weather is given
+ URL: https://www.kaggle.com/code/jeanbaptistescellier/points-where-weather-is-given
+
+Title: [Enefit] EDA + Baseline
+ URL: https://www.kaggle.com/code/tsunotsuno/enefit-eda-baseline
+
+Title: notebook58a49c0f73
+ URL: https://www.kaggle.com/code/gopalakrishnankumar/notebook58a49c0f73
+
+Title: More revealed from target_revealed🔍
+ URL: https://www.kaggle.com/code/patrick0302/more-revealed-from-target-revealed
+
+Title: XGB+Bayesian opt
+ URL: https://www.kaggle.com/code/avtandyl/xgb-bayesian-opt
+
+Title: Enefit : Transform Train Data into Validation Env
+ URL: https://www.kaggle.com/code/negoto/enefit-transform-train-data-into-validation-env
+
+Title: Enefit - Data Exploration
+ URL: https://www.kaggle.com/code/lucabasa/enefit-data-exploration
+
+Title: Weights of weather nodes for counties
+ URL: https://www.kaggle.com/code/radoslawszostak/weights-of-weather-nodes-for-counties
+
+Title: notebook17d610ab7a
+ URL: https://www.kaggle.com/code/gopalakrishnankumar/notebook17d610ab7a
+
+Title: Enefit: EDA + XGBoost baseline
+ URL: https://www.kaggle.com/code/syerramilli/enefit-eda-xgboost-baseline
+
+Title: XGB approach
+ URL: https://www.kaggle.com/code/avtandyl/xgb-approach
+
+Title: Enefit: Data Exploration and Preprocessing
+ URL: https://www.kaggle.com/code/bukkyojo/enefit-data-exploration-and-preprocessing
+
+Title: Predict Energy(simple baseline)
+ URL: https://www.kaggle.com/code/avtandyl/predict-energy-simple-baseline
+
+Title: Homely fox and energy problem
+ URL: https://www.kaggle.com/code/verakozhevnikova/homely-fox-and-energy-problem
+
+Title: EDA and Time series Fourier PSD Simple Zero ML
+ URL: https://www.kaggle.com/code/hli111111/eda-and-time-series-fourier-psd-simple-zero-ml
+
+Title: MockApi Enefit
+ URL: https://www.kaggle.com/code/santiagomota/mockapi-enefit
+
+Title: Enefit-Exploratory Data Analysis
+ URL: https://www.kaggle.com/code/vineeth1999/enefit-exploratory-data-analysis
+
+Title: outrodia
+ URL: https://www.kaggle.com/code/guilhermedecarvalho/outrodia
+
+Title: Enefit- EDA
+ URL: https://www.kaggle.com/code/dulee1206/enefit-eda
+
+Title: 【JA/EN】Enefit EDA and progress
+ URL: https://www.kaggle.com/code/keitashimizu21/ja-en-enefit-eda-and-progress
+
+Title: Enefit-1 step[EDA]
+ URL: https://www.kaggle.com/code/prernashekhawat/enefit-1-step-eda
+
+Title: [Enefit]Quick_EDA（EN/日本語）
+ URL: https://www.kaggle.com/code/keishibata/enefit-quick-eda-en
+
+Title: Enefit🔌Forecast: EDA🔎 weather ☀️🌦️❄️
+ URL: https://www.kaggle.com/code/jirkaborovec/enefit-forecast-eda-weather
+
+Title: Impact of weather🌤️, temporal feat🕒and holiday📅
+ URL: https://www.kaggle.com/code/patrick0302/impact-of-weather-temporal-feat-and-holiday
+
+Title: Enefit Weather County Code
+ URL: https://www.kaggle.com/code/greysky/enefit-weather-county-code
+
+Title: Enefit|Baseline|Models
+ URL: https://www.kaggle.com/code/ravi20076/enefit-baseline-models
+
+Title: Enefit: EDA + Catboost baseline
+ URL: https://www.kaggle.com/code/syerramilli/enefit-eda-catboost-baseline
+
+Title: Enefit|Polars-preprocessing
+ URL: https://www.kaggle.com/code/michaelo/enefit-polars-preprocessing
+
+Title: Enefit_LGBM_CV_Baseline
+ URL: https://www.kaggle.com/code/daisuke0204/enefit-lgbm-cv-baseline
+
+Title: Enefit - 1st step | Data Summary
+ URL: https://www.kaggle.com/code/sb0702/enefit-1st-step-data-summary
+
+Title: Enefit LGBM Baseline
+ URL: https://www.kaggle.com/code/greysky/enefit-lgbm-baseline
+
+Title: mapping locations and county codes
+ URL: https://www.kaggle.com/code/fabiendaniel/mapping-locations-and-county-codes
+
+Title: Enefit| TrainDataPrep
+ URL: https://www.kaggle.com/code/ravi20076/enefit-traindataprep
+
+Title: Enefit🔌Forecast: EDA🔎 & PyTorch🔥auto-regression
+ URL: https://www.kaggle.com/code/jirkaborovec/enefit-forecast-eda-pytorch-auto-regression
+
+Title: Enefit🔌Forecast: EDA🔎 & Optuna🌪️LightGBM@GPU
+ URL: https://www.kaggle.com/code/jirkaborovec/enefit-forecast-eda-optuna-lightgbm-gpu
+
+Title: notebook5879900963
+ URL: https://www.kaggle.com/code/afreedhussainshaik/notebook5879900963
+
+Title: ⚡Enefit - Overview and Time Series Plots
+ URL: https://www.kaggle.com/code/docxian/enefit-overview-and-time-series-plots
+
+Title: Enefit : Production and Solar Radiation - EDA
+ URL: https://www.kaggle.com/code/negoto/enefit-production-and-solar-radiation-eda
+
+Title: Enefit🔌Forecast: EDA🔎 & XGBoost🌪️Regressor@GPU
+ URL: https://www.kaggle.com/code/jirkaborovec/enefit-forecast-eda-xgboost-regressor-gpu
+
+Title: Prosuming in Baltic Region
+ URL: https://www.kaggle.com/code/mpwolke/prosuming-in-baltic-region
+
+Title: Predict Energy Behavior of Prosumers(baseline)
+ URL: https://www.kaggle.com/code/yunsuxiaozi/predict-energy-behavior-of-prosumers-baseline
+
+Title: Enefit energy prediction
+ URL: https://www.kaggle.com/code/thomasdubail/enefit-energy-prediction
+
+Title: Simple Zero ML Solution (PB:219.06)
+ URL: https://www.kaggle.com/code/macarrony00/simple-zero-ml-solution-pb-219-06
+
+Title: Enefit Basic Submission Demo
+ URL: https://www.kaggle.com/code/sohier/enefit-basic-submission-demo
+
+Title: Welcome to Predict  Energy Behavior of Prosumers
+ URL: https://www.kaggle.com/code/yunsuxiaozi/welcome-to-predict-energy-behavior-of-prosumers
+
+Title: Energy Behavior HistPlot
+ URL: https://www.kaggle.com/code/stpeteishii/energy-behavior-histplot
+
+Title: EDA-Enefit-Predict Energy
+ URL: https://www.kaggle.com/code/sooyoungher/eda-enefit-predict-energy
+
+Title: Predict energy behavior of prosumers
+ URL: https://www.kaggle.com/code/sytuannguyen/predict-energy-behavior-of-prosumers
+
+Title: 💡 Enefit | Interactive Time-Series Analysis 📈
+ URL: https://www.kaggle.com/code/iqmansingh/enefit-interactive-time-series-analysis
+
+Title: [Enefit] Baseline + cross-validation ☀️
+ URL: https://www.kaggle.com/code/vincentschuler/enefit-baseline-cross-validation
+
+Title: ⚡Enefit│XGBoost│starter⚡
+ URL: https://www.kaggle.com/code/rafiko1/enefit-xgboost-starter
+
+Title: [V3+ Tuned]Enefit PEBOP EDA
+ URL: https://www.kaggle.com/code/olegshpagin/v3-tuned-enefit-pebop-eda
+
+Title: [V3 Tuned]Enefit PEBOP: EDA (Plotly) and Mo 38e394
+ URL: https://www.kaggle.com/code/myyeahnet/v3-tuned-enefit-pebop-eda-plotly-and-mo-38e394
+
+Title: EnefitEDA
+ URL: https://www.kaggle.com/code/muratbarkinknay/enefiteda
+
+Title: Enefit PEBOP: EDA (Plotly) and Modelling save mode
+ URL: https://www.kaggle.com/code/kitaru/enefit-pebop-eda-plotly-and-modelling-save-mode
+
+Title: Enefit PEBOP: EDA (Plotly) and Modelling save mode
+ URL: https://www.kaggle.com/code/stasborodynkin/enefit-pebop-eda-plotly-and-modelling-save-mode
+
+Title: EnefitEDA (Plotly) and Modelling
+ URL: https://www.kaggle.com/code/lispprolog/enefiteda-plotly-and-modelling
+
+Title: Enefit
+ URL: https://www.kaggle.com/code/shuyanggo/enefit
+
+Title: Fork of Enefit: Target Diff
+ URL: https://www.kaggle.com/code/hodinhtrieu/fork-of-enefit-target-diff
+
+Title: LGBM model
+ URL: https://www.kaggle.com/code/nguyenvietdat/lgbm-model
+
+Title: Ivy RNN
+ URL: https://www.kaggle.com/code/lijyunjhang/ivy-rnn
+
+Title: simple EDA a9f
+ URL: https://www.kaggle.com/code/seansheen/simple-eda-a9f
+
+Title: BaseLine
+ URL: https://www.kaggle.com/code/giriguro/baseline
+
+Title: random-forest-reduced
+ URL: https://www.kaggle.com/code/eviltrtl/random-forest-reduced
+
+Title: energy
+ URL: https://www.kaggle.com/code/metinsefata/energy
+
+Title: ⚡Enefit│XGBoost│starter⚡
+ URL: https://www.kaggle.com/code/ninjapiggz/enefit-xgboost-starter
+
+Title: Enefit | Basic | LGBM+Voting Regressor
+ URL: https://www.kaggle.com/code/agshiv92/enefit-basic-lgbm-voting-regressor
+
+Title: Enfit - CV and auto embeddings
+ URL: https://www.kaggle.com/code/beezus666/enfit-cv-and-auto-embeddings
+
+Title: A small analysis of the final Submissions
+ URL: https://www.kaggle.com/code/wasjaip/a-small-analysis-of-the-final-submissions
+
+Title: enefit_other_models
+ URL: https://www.kaggle.com/code/evalyev/enefit-other-models
+
+Title: enefit_lama
+ URL: https://www.kaggle.com/code/evalyev/enefit-lama
+
+Title: notebooke6f25a4759
+ URL: https://www.kaggle.com/code/zhiyunhuang/notebooke6f25a4759
+
+Title: ⚡ [1220] 101_base
+ URL: https://www.kaggle.com/code/kangtori/1220-101-base
+
+Title: 🔋Pandas | Data Description and Starters Guide🔋
+ URL: https://www.kaggle.com/code/ahmedabdulwahab/pandas-data-description-and-starters-guide
+
+Title: Enefit Basic Submission Demo
+ URL: https://www.kaggle.com/code/najeebz/enefit-basic-submission-demo
+
+Title: Explain Dataset and Baseline
+ URL: https://www.kaggle.com/code/auliarinili/explain-dataset-and-baseline
+
+Title: Version 3
+ URL: https://www.kaggle.com/code/ddikua/version-3
+
+Title: [Enefit] Step1 - Understand and Merge Datasets
+ URL: https://www.kaggle.com/code/jojungim/enefit-step1-understand-and-merge-datasets
+
+Title: Mymemes
+ URL: https://www.kaggle.com/code/maxine1616/mymemes
+
+Title: Jhanavi Hegde NB -⚡Enefit│XGBoost│starter⚡
+ URL: https://www.kaggle.com/code/jhanavihegde/jhanavi-hegde-nb-enefit-xgboost-starter
+
+Title: Iameverywhere
+ URL: https://www.kaggle.com/code/maxine1616/iameverywhere
+
+Title: Enefit - Quick EDA with Dash
+ URL: https://www.kaggle.com/code/qujimoshi/enefit-quick-eda-with-dash
+
+Title: Notebook Version2
+ URL: https://www.kaggle.com/code/ddikua/notebook-version2
+
+Title: Enefit pebop submission
+ URL: https://www.kaggle.com/code/csmimrankhan/enefit-pebop-submission
+
+Title: EDA-Baseline-LGBM
+ URL: https://www.kaggle.com/code/ledangnguyn/eda-baseline-lgbm
+
+Title: Interactive weather map ☀️
+ URL: https://www.kaggle.com/code/salvatoren/interactive-weather-map
+
+Title: EDA-Enefit
+ URL: https://www.kaggle.com/code/ledangnguyn/eda-enefit
+
+Title: Usage of public_timeseries_testing_util.py-MockAP
+ URL: https://www.kaggle.com/code/jameshuang890902/usage-of-public-timeseries-testing-util-py-mockap
+
+Title: 🎯Enefit│Target│EDA🎯
+ URL: https://www.kaggle.com/code/rafiko1/enefit-target-eda
+
+Title: notebook775cf23a06
+ URL: https://www.kaggle.com/code/gopalakrishnankumar/notebook775cf23a06
+
+Title: Predict Energy | LGBM
+ URL: https://www.kaggle.com/code/muhannadmansour/predict-energy-lgbm
+
+Title: ⚡Enefit│XGBoost│starter⚡
+ URL: https://www.kaggle.com/code/candyhope/enefit-xgboost-starter
+
+Title: EDA_japanese
+ URL: https://www.kaggle.com/code/ainjhamn526/eda-japanese
+
+Title: Features eng⚡neer⚡ng & Algor⚡thm select⚡on📊
+ URL: https://www.kaggle.com/code/alexeyk12/features-eng-neer-ng-algor-thm-select-on
+
