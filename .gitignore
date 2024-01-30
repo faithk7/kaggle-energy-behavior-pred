@@ -1,1 +1,5 @@
 **/*.csv
+**/*.pyc
+*.pyc
+src/.pytest_cache/**/*
+src/.pytest_cache/*

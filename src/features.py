@@ -1,6 +1,9 @@
 import datetime
+from re import I
+from tabnanny import check
 
 import polars as pl
+from pl_utils import pl_strtime2timeobj
 
 from tests.utils import check_has_null
 
@@ -72,27 +75,23 @@ def get_utility_features(df, electricity_prices, gas_prices):
         feat (pl.DataFrame): The generated features.
     """
     # get the columns of df
-    date_differences = [2]  # TODO: can add more date differences
+    date_differences = [1, 2, 3, 4, 5, 6, 7]  # TODO: can add more date differences
 
     tmp_df = df.clone()
     tmp_gas_prices = gas_prices.clone()
 
     # convert the datetime column to datetime type
     # NOTE: I am following the "open-closed principle"!
-    tmp_df = tmp_df.with_columns(
-        pl.col("datetime")
-        .str.strptime(pl.Datetime, "%Y-%m-%d %H:%M:%S")
-        .alias("datetime_object")
+    tmp_df = pl_strtime2timeobj(tmp_df, "datetime")
+    tmp_df = tmp_df.with_columns(tmp_df["datetime_object"].dt.date().alias("date"))
+    tmp_gas_prices = pl_strtime2timeobj(tmp_gas_prices, "origin_date", "%Y-%m-%d")
+    tmp_gas_prices = tmp_gas_prices.with_columns(
+        tmp_gas_prices["origin_date_object"].dt.date()
     )
 
-    # get the date from the datetime column df
-    tmp_df = tmp_df.with_columns(tmp_df["datetime_object"].dt.date().alias("date"))
-    tmp_gas_prices = tmp_gas_prices.with_columns(
-        pl.col("origin_date")
-        .str.strptime(pl.Datetime, "%Y-%m-%d")
-        .dt.date()
-        .alias("origin_date_object")
-    )
+    assert (
+        check_has_null(tmp_gas_prices.null_count()) == False
+    ), "tmp_gas_prices does not have any null values"
 
     # iterating through the date differences and get the date differences from the date column
     tmp_df = tmp_df.with_columns(
@@ -110,10 +109,39 @@ def get_utility_features(df, electricity_prices, gas_prices):
             right_on="origin_date_object",
             how="left",
         )
+        duplicate_columns_to_drop = [
+            column for column in tmp_df.columns if "_right" in column
+        ]
+        tmp_df = tmp_df.drop(duplicate_columns_to_drop)
+    # ? What is the beginning of the gas price though?
+    # (1/29/24) at the end, there was missing data which makes sense because 5-30 does not match any data for the gas price, which
+    # ends at 5-29
+    tmp_df = tmp_df.fill_null(strategy="mean")
 
-    print(tmp_df.head(10))
+    print(
+        electricity_prices.group_by("data_block_id").agg(pl.col("euros_per_mwh").mean())
+    )
 
-    # TODO: group the electricity_price by the data_block_id and get the mean of euros_per_mwh
+    # ? Does this apply to the test features as well?
+    # the null values for the data block id comes from the data where the data_block_id is 0
+    tmp_df = tmp_df.join(
+        electricity_prices.group_by("data_block_id")
+        .agg(pl.col("euros_per_mwh").mean())
+        .rename({"euros_per_mwh": "daily_euros_per_mwh"}),
+        on="data_block_id",
+        how="left",
+    )
+
+    print(tmp_df.null_count())
+    # print the column of tmp_df where there are null values
+    print(tmp_df.filter(pl.col("daily_euros_per_mwh").is_null()))
+    # print(tmp_df.with_columns(pl.all().is_null().name.suffix("_isnull")))
+
+    tmp_df = tmp_df.fill_null(strategy="mean")
+
+    assert (
+        check_has_null(tmp_df.null_count()) == False
+    ), "tmp_df does not have any null values"
 
     return tmp_df
 
@@ -129,7 +157,11 @@ def get_forecast_weather_features(df, forecast_weather):
     Returns:
         feat (pl.DataFrame): The generated features.
     """
-    pass
+    # need to parse the json file containing the longitude & latitude to county
+
+    # join the forecast weather to the to the county to get the county
+
+    #
 
 
 def get_historical_weather_features(df, historical_weather):
