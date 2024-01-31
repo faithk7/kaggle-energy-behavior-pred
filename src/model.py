@@ -3,6 +3,41 @@ import numpy as np
 from sklearn.ensemble import VotingRegressor
 
 
+class ModelWrapper:
+    # so that you can pass any model to the ModelWrapper class
+    def __init__(self, model_consumption, model_production):
+        self.model_consumption = model_consumption
+        self.model_production = model_production
+
+    def fit(self, df_train_features):
+        mask = df_train_features["is_consumption"] == 1
+        self.model_consumption.fit(
+            X=df_train_features[mask].drop(columns=["target"]),
+            y=df_train_features[mask]["target"],
+        )
+
+        mask = df_train_features["is_consumption"] == 0
+        self.model_production.fit(
+            X=df_train_features[mask].drop(columns=["target"]),
+            y=df_train_features[mask]["target"],
+        )
+
+    def predict(self, df_features):
+        predictions = np.zeros(len(df_features))
+
+        mask = df_features["is_consumption"] == 1
+        predictions[mask.values] = self.model_consumption.predict(
+            df_features[mask]
+        ).clip(0)
+
+        mask = df_features["is_consumption"] == 0
+        predictions[mask.values] = self.model_production.predict(
+            df_features[mask]
+        ).clip(0)
+
+        return predictions
+
+
 class Model:
     def __init__(self):
         self.model_parameters = {
