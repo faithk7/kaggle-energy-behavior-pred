@@ -1,192 +1,311 @@
-import datetime
-from re import I
-from tabnanny import check
-
+import numpy as np
+import pandas as pd
 import polars as pl
-from pl_utils import pl_strtime2timeobj
-
-from tests.utils import check_has_null
 
 
-def get_features(
-    df: pl.DataFrame,
-    client: pl.DataFrame,
-    targets: pl.DataFrame,
-    historical_weather: pl.DataFrame,
-    forecast_weather: pl.DataFrame,
-    electricity_prices: pl.DataFrame,
-    gas_prices: pl.DataFrame,
-):
-    """
-    Generate features for energy behavior prediction.
+class FeaturesGenerator:
+    def __init__(self, data_storage):
+        self.data_storage = data_storage
 
-    Args:
-        df (pl.DataFrame): The main train/test dataset, assumed that the target has already been dropped
-        client (pl.DataFrame): Client dataset.
-        targets (pl.DataFrame): The revealed target dataset.
-        historical_weather (pl.DataFrame): Historical weather dataset.
-        forecast_weather (pl.DataFrame): Forecast weather dataset.
-        electricity_prices (pl.DataFrame): Electricity prices dataset.
-        gas_prices (pl.DataFrame): Gas prices dataset.
+    def _add_general_features(self, df_features):
+        df_features = (
+            df_features.with_columns(
+                pl.col("datetime").dt.ordinal_day().alias("dayofyear"),
+                pl.col("datetime").dt.hour().alias("hour"),
+                pl.col("datetime").dt.day().alias("day"),
+                pl.col("datetime").dt.weekday().alias("weekday"),
+                pl.col("datetime").dt.month().alias("month"),
+                pl.col("datetime").dt.year().alias("year"),
+            )
+            .with_columns(
+                pl.concat_str(
+                    "county",
+                    "is_business",
+                    "product_type",
+                    "is_consumption",
+                    separator="_",
+                ).alias("segment"),
+            )
+            .with_columns(
+                (np.pi * pl.col("dayofyear") / 183).sin().alias("sin(dayofyear)"),
+                (np.pi * pl.col("dayofyear") / 183).cos().alias("cos(dayofyear)"),
+                (np.pi * pl.col("hour") / 12).sin().alias("sin(hour)"),
+                (np.pi * pl.col("hour") / 12).cos().alias("cos(hour)"),
+            )
+        )
+        return df_features
 
-    Returns:
-        feat (pl.DataFrame): The generated features.
-    """
+    def _add_client_features(self, df_features):
+        df_client = self.data_storage.df_client
 
-    # assert there is no missing data in each dataset
-    assert df.is_null().sum().sum() == 0
-    assert client.is_null().sum().sum() == 0
-    assert targets.is_null().sum().sum() == 0
-    assert historical_weather.is_null().sum().sum() == 0
-    assert forecast_weather.is_null().sum().sum() == 0
-    assert electricity_prices.is_null().sum().sum() == 0
-    assert gas_prices.is_null().sum().sum() == 0
-
-    # initialize features
-    feat = pl.DataFrame()
-
-    utility_features = get_utility_features(df, electricity_prices, gas_prices)
-    forecast_weather_features = get_forecast_weather_features(df, forecast_weather)
-    historical_weather_features = get_historical_weather_features(
-        df, historical_weather
-    )
-    client_features = get_client_features(df, client)
-
-    feat = feat.join(utility_features)
-    feat = feat.join(forecast_weather_features)
-    feat = feat.join(historical_weather_features)
-    feat = feat.join(client_features)
-
-    # assertions for feat
-    assert feat.is_null().sum().sum() == 0
-    return feat
-
-
-def get_utility_features(df, electricity_prices, gas_prices):
-    """
-    Generate utility features.
-
-    Args:
-        df (pl.DataFrame): The main train/test dataset, assumed that the target has already been dropped
-        electricity_prices (pl.DataFrame): Electricity prices dataset, including the historical electricity_prices
-        gas_prices (pl.DataFrame): Gas prices dataset, including the historical gas_prices
-
-    Returns:
-        feat (pl.DataFrame): The generated features.
-    """
-    # get the columns of df
-    date_differences = [1, 2, 3, 4, 5, 6, 7]  # TODO: can add more date differences
-
-    tmp_df = df.clone()
-    tmp_gas_prices = gas_prices.clone()
-
-    # convert the datetime column to datetime type
-    # NOTE: I am following the "open-closed principle"!
-    tmp_df = pl_strtime2timeobj(tmp_df, "datetime")
-    tmp_df = tmp_df.with_columns(tmp_df["datetime_object"].dt.date().alias("date"))
-    tmp_gas_prices = pl_strtime2timeobj(tmp_gas_prices, "origin_date", "%Y-%m-%d")
-    tmp_gas_prices = tmp_gas_prices.with_columns(
-        tmp_gas_prices["origin_date_object"].dt.date()
-    )
-
-    assert (
-        check_has_null(tmp_gas_prices.null_count()) == False
-    ), "tmp_gas_prices does not have any null values"
-
-    # iterating through the date differences and get the date differences from the date column
-    tmp_df = tmp_df.with_columns(
-        [
-            (tmp_df["date"] - pl.duration(days=num_day)).alias(f"date_{num_day}_before")
-            for num_day in date_differences
-        ]
-    )
-
-    # join the gas_prices to the tmp_df using the date
-    for date_difference in date_differences:
-        tmp_df = tmp_df.join(
-            tmp_gas_prices,
-            left_on=f"date_{date_difference}_before",
-            right_on="origin_date_object",
+        df_features = df_features.join(
+            df_client.with_columns(
+                (pl.col("date") + pl.duration(days=2)).cast(pl.Date)
+            ),
+            on=["county", "is_business", "product_type", "date"],
             how="left",
         )
-        duplicate_columns_to_drop = [
-            column for column in tmp_df.columns if "_right" in column
+        return df_features
+
+    def _add_forecast_weather_features(self, df_features):
+        df_forecast_weather = self.data_storage.df_forecast_weather
+        df_weather_station_to_county_mapping = (
+            self.data_storage.df_weather_station_to_county_mapping
+        )
+
+        df_forecast_weather = (
+            df_forecast_weather.rename({"forecast_datetime": "datetime"})
+            .filter((pl.col("hours_ahead") >= 22) & pl.col("hours_ahead") <= 45)
+            .drop("hours_ahead")
+            .with_columns(
+                pl.col("latitude").cast(pl.datatypes.Float32),
+                pl.col("longitude").cast(pl.datatypes.Float32),
+            )
+            .join(
+                df_weather_station_to_county_mapping,
+                how="left",
+                on=["longitude", "latitude"],
+            )
+            .drop("longitude", "latitude")
+        )
+
+        df_forecast_weather_date = (
+            df_forecast_weather.group_by("datetime").mean().drop("county")
+        )
+
+        df_forecast_weather_local = (
+            df_forecast_weather.filter(pl.col("county").is_not_null())
+            .group_by("county", "datetime")
+            .mean()
+        )
+
+        for hours_lag in [0, 7 * 24]:
+            df_features = df_features.join(
+                df_forecast_weather_date.with_columns(
+                    pl.col("datetime") + pl.duration(hours=hours_lag)
+                ),
+                on="datetime",
+                how="left",
+                suffix=f"_forecast_{hours_lag}h",
+            )
+            df_features = df_features.join(
+                df_forecast_weather_local.with_columns(
+                    pl.col("datetime") + pl.duration(hours=hours_lag)
+                ),
+                on=["county", "datetime"],
+                how="left",
+                suffix=f"_forecast_local_{hours_lag}h",
+            )
+
+        return df_features
+
+    def _add_historical_weather_features(self, df_features):
+        df_historical_weather = self.data_storage.df_historical_weather
+        df_weather_station_to_county_mapping = (
+            self.data_storage.df_weather_station_to_county_mapping
+        )
+
+        df_historical_weather = (
+            df_historical_weather.with_columns(
+                pl.col("latitude").cast(pl.datatypes.Float32),
+                pl.col("longitude").cast(pl.datatypes.Float32),
+            )
+            .join(
+                df_weather_station_to_county_mapping,
+                how="left",
+                on=["longitude", "latitude"],
+            )
+            .drop("longitude", "latitude")
+        )
+
+        df_historical_weather_date = (
+            df_historical_weather.group_by("datetime").mean().drop("county")
+        )
+
+        df_historical_weather_local = (
+            df_historical_weather.filter(pl.col("county").is_not_null())
+            .group_by("county", "datetime")
+            .mean()
+        )
+
+        for hours_lag in [2 * 24, 7 * 24]:
+            df_features = df_features.join(
+                df_historical_weather_date.with_columns(
+                    pl.col("datetime") + pl.duration(hours=hours_lag)
+                ),
+                on="datetime",
+                how="left",
+                suffix=f"_historical_{hours_lag}h",
+            )
+            df_features = df_features.join(
+                df_historical_weather_local.with_columns(
+                    pl.col("datetime") + pl.duration(hours=hours_lag)
+                ),
+                on=["county", "datetime"],
+                how="left",
+                suffix=f"_historical_local_{hours_lag}h",
+            )
+
+        for hours_lag in [1 * 24]:
+            df_features = df_features.join(
+                df_historical_weather_date.with_columns(
+                    pl.col("datetime") + pl.duration(hours=hours_lag),
+                    pl.col("datetime").dt.hour().alias("hour"),
+                )
+                .filter(pl.col("hour") <= 10)
+                .drop("hour"),
+                on="datetime",
+                how="left",
+                suffix=f"_historical_{hours_lag}h",
+            )
+
+        return df_features
+
+    def _add_target_features(self, df_features):
+        df_target = self.data_storage.df_target
+
+        df_target_all_type_sum = (
+            df_target.group_by(["datetime", "county", "is_business", "is_consumption"])
+            .sum()
+            .drop("product_type")
+        )
+
+        df_target_all_county_type_sum = (
+            df_target.group_by(["datetime", "is_business", "is_consumption"])
+            .sum()
+            .drop("product_type", "county")
+        )
+
+        for hours_lag in [
+            2 * 24,
+            3 * 24,
+            4 * 24,
+            5 * 24,
+            6 * 24,
+            7 * 24,
+            8 * 24,
+            9 * 24,
+            10 * 24,
+            11 * 24,
+            12 * 24,
+            13 * 24,
+            14 * 24,
+        ]:
+            df_features = df_features.join(
+                df_target.with_columns(
+                    pl.col("datetime") + pl.duration(hours=hours_lag)
+                ).rename({"target": f"target_{hours_lag}h"}),
+                on=[
+                    "county",
+                    "is_business",
+                    "product_type",
+                    "is_consumption",
+                    "datetime",
+                ],
+                how="left",
+            )
+
+        for hours_lag in [2 * 24, 3 * 24, 7 * 24, 14 * 24]:
+            df_features = df_features.join(
+                df_target_all_type_sum.with_columns(
+                    pl.col("datetime") + pl.duration(hours=hours_lag)
+                ).rename({"target": f"target_all_type_sum_{hours_lag}h"}),
+                on=["county", "is_business", "is_consumption", "datetime"],
+                how="left",
+            )
+
+            df_features = df_features.join(
+                df_target_all_county_type_sum.with_columns(
+                    pl.col("datetime") + pl.duration(hours=hours_lag)
+                ).rename({"target": f"target_all_county_type_sum_{hours_lag}h"}),
+                on=["is_business", "is_consumption", "datetime"],
+                how="left",
+                suffix=f"_all_county_type_sum_{hours_lag}h",
+            )
+
+        cols_for_stats = [
+            f"target_{hours_lag}h" for hours_lag in [2 * 24, 3 * 24, 4 * 24, 5 * 24]
         ]
-        tmp_df = tmp_df.drop(duplicate_columns_to_drop)
-    # ? What is the beginning of the gas price though?
-    # (1/29/24) at the end, there was missing data which makes sense because 5-30 does not match any data for the gas price, which
-    # ends at 5-29
-    tmp_df = tmp_df.fill_null(strategy="mean")
+        df_features = df_features.with_columns(
+            df_features.select(cols_for_stats).mean(axis=1).alias(f"target_mean"),
+            df_features.select(cols_for_stats)
+            .transpose()
+            .std()
+            .transpose()
+            .to_series()
+            .alias(f"target_std"),
+        )
 
-    print(
-        electricity_prices.group_by("data_block_id").agg(pl.col("euros_per_mwh").mean())
-    )
+        for target_prefix, lag_nominator, lag_denominator in [
+            ("target", 24 * 7, 24 * 14),
+            ("target", 24 * 2, 24 * 9),
+            ("target", 24 * 3, 24 * 10),
+            ("target", 24 * 2, 24 * 3),
+            ("target_all_type_sum", 24 * 2, 24 * 3),
+            ("target_all_type_sum", 24 * 7, 24 * 14),
+            ("target_all_county_type_sum", 24 * 2, 24 * 3),
+            ("target_all_county_type_sum", 24 * 7, 24 * 14),
+        ]:
+            df_features = df_features.with_columns(
+                (
+                    pl.col(f"{target_prefix}_{lag_nominator}h")
+                    / (pl.col(f"{target_prefix}_{lag_denominator}h") + 1e-3)
+                ).alias(f"{target_prefix}_ratio_{lag_nominator}_{lag_denominator}")
+            )
 
-    # ? Does this apply to the test features as well?
-    # the null values for the data block id comes from the data where the data_block_id is 0
-    tmp_df = tmp_df.join(
-        electricity_prices.group_by("data_block_id")
-        .agg(pl.col("euros_per_mwh").mean())
-        .rename({"euros_per_mwh": "daily_euros_per_mwh"}),
-        on="data_block_id",
-        how="left",
-    )
+        return df_features
 
-    print(tmp_df.null_count())
-    # print the column of tmp_df where there are null values
-    print(tmp_df.filter(pl.col("daily_euros_per_mwh").is_null()))
-    # print(tmp_df.with_columns(pl.all().is_null().name.suffix("_isnull")))
+    def _reduce_memory_usage(self, df_features):
+        df_features = df_features.with_columns(pl.col(pl.Float64).cast(pl.Float32))
+        return df_features
 
-    tmp_df = tmp_df.fill_null(strategy="mean")
+    def _drop_columns(self, df_features):
+        df_features = df_features.drop("date", "datetime", "hour", "dayofyear")
+        return df_features
 
-    assert (
-        check_has_null(tmp_df.null_count()) == False
-    ), "tmp_df does not have any null values"
+    def _to_pandas(self, df_features, y):
+        cat_cols = [
+            "county",
+            "is_business",
+            "product_type",
+            "is_consumption",
+            "segment",
+        ]
 
-    return tmp_df
+        if y is not None:
+            df_features = pd.concat([df_features.to_pandas(), y.to_pandas()], axis=1)
+        else:
+            df_features = df_features.to_pandas()
 
+        df_features = df_features.set_index("row_id")
+        df_features[cat_cols] = df_features[cat_cols].astype("category")
 
-def get_forecast_weather_features(df, forecast_weather):
-    """
-    Generate forecast weather features.
+        return df_features
 
-    Args:
-        df (pl.DataFrame): The main train/test dataset, assumed that the target has already been dropped
-        forecast_weather (pl.DataFrame): Forecast weather dataset.
+    def generate_features(self, df_prediction_items):
+        if "target" in df_prediction_items.columns:
+            df_prediction_items, y = (
+                df_prediction_items.drop("target"),
+                df_prediction_items.select("target"),
+            )
+        else:
+            y = None
 
-    Returns:
-        feat (pl.DataFrame): The generated features.
-    """
-    # need to parse the json file containing the longitude & latitude to county
+        df_features = df_prediction_items.with_columns(
+            pl.col("datetime").cast(pl.Date).alias("date"),
+        )
 
-    # join the forecast weather to the to the county to get the county
+        for add_features in [
+            self._add_general_features,
+            self._add_client_features,
+            self._add_forecast_weather_features,
+            self._add_historical_weather_features,
+            self._add_target_features,
+            self._reduce_memory_usage,
+            self._drop_columns,
+        ]:
+            df_features = add_features(df_features)
 
-    #
+        df_features = self._to_pandas(df_features, y)
 
-
-def get_historical_weather_features(df, historical_weather):
-    """
-    Generate historical weather features.
-
-    Args:
-        df (pl.DataFrame): The main train/test dataset, assumed that the target has already been dropped
-        historical_weather (pl.DataFrame): Historical weather dataset.
-
-    Returns:
-        feat (pl.DataFrame): The generated features.
-    """
-    pass
-
-
-def get_client_features(df, client):
-    """
-    Generate client features.
-
-    Args:
-        df (pl.DataFrame): The main train/test dataset, assumed that the target has already been dropped
-        client (pl.DataFrame): Client dataset.
-
-    Returns:
-        feat (pl.DataFrame): The generated features.
-    """
-    pass
+        return df_features
